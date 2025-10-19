@@ -75,10 +75,8 @@ How to Run the Project Locally
 
    In the server folder, create a file named `.env` and add the following:
 
-   MONGO_URI=your_mongodb_connection_string
+   MONGO_URI="#"
    PORT=5000
-
-   Replace "your_mongodb_connection_string" with your actual MongoDB URI.
 
 5. Start the backend server:
 
@@ -87,40 +85,17 @@ How to Run the Project Locally
 
 6. Start the frontend development server:
 
-   cd ../client
+   cd ../blog-frontend
    npm start
 
 7. Open your browser and go to:
 
    http://localhost:3000
 
-Deployment
-----------
-
-This project can be deployed using the following platforms:
-
-Frontend: Netlify, Vercel, or any React-compatible static host
-Backend: Render, Railway, Heroku, or any Node.js hosting service
-Database: MongoDB Atlas (recommended for production)
-
-Make sure to configure API URLs and environment variables during deployment.
-
-Contributing
-------------
-
-Contributions are welcome. You can improve the design, fix bugs, or add new features. To contribute:
-
-- Fork the repository
-- Create a new branch
-- Make your changes
-- Submit a pull request
-
-Please ensure that your code is well-tested and follows consistent formatting.
-
 Author
 ------
 
 Developed by Amarnath
-GitHub Profile: https://github.com/Amarnath-coder405/Blog-Website
+GitHub Profile: https://github.com/Amarnath-coder405/myblog.git
 
 If you find this project useful, please consider starring the repository on GitHub.
