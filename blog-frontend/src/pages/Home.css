@@ -22,7 +22,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  /* background: rgba(0, 0, 0, 0.5); dark overlay for readability */
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80');
   z-index: 1;
 }
 
@@ -72,6 +73,13 @@
 
 .slick-dots li.slick-active button:before {
   color: #0d6efd;
+}
+
+.hero-slide-wrapper,
+.slick-slide,
+.slick-track,
+.slick-list {
+  height: 100%;
 }
 
 /* ===== Search + Category Filter styles ===== */

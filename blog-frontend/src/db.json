@@ -51,19 +51,6 @@
       ],
       "imageUrl": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
       "videoUrl": "https://www.youtube.com/watch?v=LXb3EKWsInQ"
-    },
-    {
-      "id": "1760766045517",
-      "title": "Prashanth",
-      "excerpt": "test",
-      "content": "web designer",
-      "author": "Prashanth",
-      "publishDate": "2025-10-19",
-      "categories": [
-        "MERN"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1562170824-b547dae88b97?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9",
-      "videoUrl": "https://www.youtube.com/watch?v=LXb3EKWsInQ"
     }
   ]
 }

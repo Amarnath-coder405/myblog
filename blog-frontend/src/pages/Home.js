@@ -2,15 +2,16 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import Slider from 'react-slick';
 import './Home.css';
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 
 const heroSlides = [
   {
     id: 1,
     title: "Welcome to Our Blog",
     subtitle: "Explore fresh insights and stories every week.",
-    imageUrl: "https://source.unsplash.com/1600x900/?nature,water",
+    imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
     ctaLink: "/about",
     ctaText: "Learn More About Us"
   },
@@ -18,15 +19,15 @@ const heroSlides = [
     id: 2,
     title: "Discover New Stories",
     subtitle: "Stay updated with the latest trends and ideas.",
-    imageUrl: "https://source.unsplash.com/1600x900/?technology,code",
-    ctaLink: "/posts",
+    imageUrl: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    ctaLink: "http://localhost:3000/?search=&category=&page=1",
     ctaText: "Read Our Posts"
   },
   {
     id: 3,
     title: "Join Our Community",
     subtitle: "Connect and grow with like-minded readers.",
-    imageUrl: "https://source.unsplash.com/1600x900/?community,people",
+    imageUrl: "https://images.unsplash.com/photo-1601597112204-76b4d1b8e8a7",
     ctaLink: "/signup",
     ctaText: "Get Started"
   }
