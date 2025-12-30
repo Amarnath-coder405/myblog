@@ -32,26 +32,6 @@ Backend:
 - MongoDB
 - Mongoose
 
-Project Structure
------------------
-
-myblog/
-├── client/                 React frontend
-│   ├── public/
-│   └── src/
-│       ├── components/     Reusable UI components
-│       ├── pages/          Page views
-│       ├── App.js          Main application file
-│       └── index.js        React entry point
-├── server/                 Node.js backend
-│   ├── models/             Mongoose schemas for Blog and Comments
-│   ├── routes/             API route definitions
-│   ├── controllers/        Route handling logic
-│   ├── config/             Database configuration
-│   └── server.js           Express server setup
-├── .env                    Environment variables
-├── package.json            Project metadata
-└── README.txt              Project documentation
 
 How to Run the Project Locally
 ------------------------------
