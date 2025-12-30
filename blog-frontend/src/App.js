@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Layout><Home /></Layout>} />
+        <Route path="/myblog/blog-frontend" element={<Layout><Home /></Layout>} />
         <Route path="/post/:id" element={<Layout><BlogDetails /></Layout>} />
         <Route path="/login" element={<Login />} />
         <Route
