@@ -1,9 +1,9 @@
-React Blog Website
+React Blog Website:
 ==================
 
 This is a full-stack blog application built using React for the frontend and Node.js with Express for the backend. MongoDB is used as the database. The application allows users to view blog posts, read individual articles, comment on posts, search for content, and share blog posts through social media. The design is fully responsive and optimized for various devices and browsers.
 
-Features
+Features:
 --------
 
 - Frontend developed with React
@@ -17,43 +17,24 @@ Features
 - Cross-browser compatibility
 - Code is clean and well-commented for easy maintenance
 
-Technologies Used
------------------
+Technologies Used:
+-----------------ee
 
 Frontend:
+--------
 - React.js
 - HTML5
 - CSS3
 - JavaScript
 
 Backend:
+-------
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
 
-Project Structure
------------------
-
-myblog/
-├── client/                 React frontend
-│   ├── public/
-│   └── src/
-│       ├── components/     Reusable UI components
-│       ├── pages/          Page views
-│       ├── App.js          Main application file
-│       └── index.js        React entry point
-├── server/                 Node.js backend
-│   ├── models/             Mongoose schemas for Blog and Comments
-│   ├── routes/             API route definitions
-│   ├── controllers/        Route handling logic
-│   ├── config/             Database configuration
-│   └── server.js           Express server setup
-├── .env                    Environment variables
-├── package.json            Project metadata
-└── README.txt              Project documentation
-
-How to Run the Project Locally
+How to Run the Project Locally:
 ------------------------------
 
 1. Clone the repository:
@@ -92,7 +73,7 @@ How to Run the Project Locally
 
    http://localhost:3000
 
-Author
+Author:
 ------
 
 Developed by Amarnath
